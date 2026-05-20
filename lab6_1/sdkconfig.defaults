@@ -1,0 +1,8 @@
+# Enable larger main task stack for HTTP work
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
+
+# WiFi
+CONFIG_ESP_WIFI_ENABLED=y
+
+# Logs
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
